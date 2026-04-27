@@ -1,0 +1,93 @@
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1{
+	font-size: 48px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+.hero p{
+	font-size:18px;
+	margin-bottom: 30px;
+	opacity: 0.9;
+}
+
+.budowa_hero{
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.usterki_hero{
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+/* BUTTON */
+.btn.primary {
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn.primary:hover{
+	background:#0056b3;
+}
+
+/* CARD */
+.card {
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card:hover, .usterki li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.01);
+}
+
+.card a {
+  text-decoration:none;
+  color:black;
+}
+.picture{
+	text-align:center;
+}
+.usterki{
+  columns:250px;
+  column-gap: 20px;
+  padding: 0;
+  margin:10px;
+}
+.usterki a{
+	text-decoration:none;
+	color:black;
+	
+}
+.usterki li{
+  list-style:none;
+  break-inside: avoid;
+  margin: 0 0 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.form input:focus,
+.form textarea:focus{
+	outline:none;
+	border-color:#007bff;
+}
